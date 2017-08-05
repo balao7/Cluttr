@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.polaric.cluttr.widgets.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:id="@+id/media_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:foreground="?attr/selectableItemBackground"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_check_white_48px"
+        android:padding="16dp"
+        android:background="@color/selector"
+        android:clickable="false"
+        android:visibility="gone"
+        android:id="@+id/media_item_check"/>
+
+</org.polaric.cluttr.widgets.SquareFrameLayout>

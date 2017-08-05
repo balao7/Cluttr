@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/search"
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search_white_48px"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"/>
+    <item android:title="@string/sort"
+        android:id="@+id/menu_sort"
+        android:icon="@drawable/ic_sort_white_48px"
+        app:showAsAction="always">
+        <menu>
+            <item android:title="@string/ascending"
+                android:id="@+id/media_ascending"
+                android:checkable="true"/>
+            <group android:checkableBehavior="single" >
+                <item android:title="@string/date"
+                    android:id="@+id/media_date"/>
+                <item android:title="@string/alphabetical"
+                    android:id="@+id/media_alphabetical"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/more"
+        android:id="@+id/menu_more"
+        android:icon="@drawable/ic_more_vert_white_48px"
+        app:showAsAction="always" >
+        <menu>
+            <item android:title="@string/hide"
+                android:id="@+id/menu_hide" />
+            <item android:title="@string/unhide"
+                android:id="@+id/menu_unhide" />
+        </menu>
+    </item>
+</menu>

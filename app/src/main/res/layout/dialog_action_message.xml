@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_dialog_toolbar"
+        app:titleTextColor="@color/md_white_1000"
+        android:background="?attr/colorPrimary"/>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:id="@+id/action_dialog_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dip"
+        android:paddingBottom="12dip"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dp"
+        android:overScrollMode="ifContentScrolls">
+        <TextView android:id="@+id/action_dialog_message"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dip" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_weight="0"
+        style="?android:attr/buttonBarStyle"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/action_dialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:text="@android:string/cancel"/>
+
+        <Button android:id="@+id/action_dialog_ok"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:maxLines="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

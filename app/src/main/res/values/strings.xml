@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Cluttr</string>
+    <string name="changelog">Changelog</string>
+    <string name="settings">Settings</string>
+    <string name="devices">Devices</string>
+    <string name="about">About</string>
+
+    <string name="version">Version</string>
+    <string name="bug">Report Bug</string>
+    <string name="rate">Rate</string>
+    <string name="author">Author</string>
+    <string name="garret">Garret Yoder</string>
+    <string name="website">Website</string>
+    <string name="donate">Donate</string>
+    <string name="github">Github</string>
+    <string name="licenses">Licenses</string>
+    <string name="gpl">GPL</string>
+
+    <string name="appearance">Appearance</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="dark_theme_desc">Use a dark UI theme</string>
+    <string name="primary_color">Primary Color</string>
+    <string name="primary_color_desc">Theme primary color</string>
+    <string name="accent_color">Accent Color</string>
+    <string name="accent_color_desc">Theme accent color</string>
+    <string name="shades">Shades</string>
+    <string name="grid_size">Albums grid size</string>
+    <string name="grid_size_desc">Grid size for view of albums</string>
+    <string name="grid_size_media">Media grid size</string>
+    <string name="grid_size_media_desc">Grid size for view of media</string>
+    <string name="behavior">Behavior</string>
+    <string name="landscape">Landscape</string>
+    <string name="portrait">Portrait</string>
+    <string name="info">Info</string>
+    <string name="media_tags">Media Info</string>
+    <string name="exclude_folders">Excluded Folders</string>
+    <string name="excluded_folders_desc">These folders will be ignored by Cluttr</string>
+    <string name="excluded">Excluded</string>
+    <string name="remove">Remove</string>
+
+    <string name="restart">A restart is required to toggle the dark theme</string>
+    <string name="later">Later</string>
+
+    <string name="filename">Filename</string>
+    <string name="type">Type</string>
+    <string name="location">Location</string>
+    <string name="focal">Focal Length</string>
+    <string name="aperture">Aperture</string>
+    <string name="exposure">Exposure</string>
+    <string name="filesize">Size</string>
+    <string name="resolution">Resolution</string>
+    <string name="camera">Camera</string>
+    <string name="date_taken">Date Taken</string>
+    <string name="iso">ISO</string>
+    <string name="na">N/A</string>
+
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="alphabetical">Alphabetical</string>
+    <string name="date">Date</string>
+    <string name="ascending">Ascending</string>
+    <string name="size">Size</string>
+    <string name="more">More</string>
+    <string name="hide">Hide Album</string>
+    <string name="unhide">Unhide Album</string>
+    <string name="visibility">Hidden Albums</string>
+    <string name="hide_short">Hide</string>
+    <string name="unhide_short">Unhide</string>
+
+    <string name="external_sd">External SDCard</string>
+    <string name="storage">Storage</string>
+    <string name="no_sd">No external sdcard set</string>
+    <string name="sd_explanation">To read the external sdcard, Cluttr needs to be granted permission. This is a requirement of recent versions of android. The android file picker will open, select your sdcard and click Select.</string>
+    <string name="sd_title">External SDCard</string>
+    <string name="remove_sd">Remove External SDCard</string>
+    <string name="remove_sd_desc">Clear the set external sdcard</string>
+    <string name="remove_complete">SDCard removed</string>
+
+    <string name="advanced">Advanced</string>
+    <string name="clear_cache">Clear cache</string>
+    <string name="clear_cache_desc">Clear all saved caches</string>
+    <string name="cache_clear_done">Cache cleared</string>
+
+    <string name="animations">Animations</string>
+    <string name="animations_desc">Toggle animations</string>
+    <string name="staggered">Staggered layout (EXPERIMENTAL)</string>
+    <string name="staggered_desc">Use a staggered grid for photos</string>
+
+    <string name="local_storage">Local Storage</string>
+
+    <string name="no_permission">No permission to read storage</string>
+    <string name="grant_permission">Grant permission</string>
+
+    <string name="select_album">Select Album</string>
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="move">Move</string>
+    <string name="share">Share</string>
+    <string name="selected">Selected</string>
+    <string name="action_complete">Operation completed</string>
+    <string name="error">A error occurred</string>
+    <string name="item">item</string>
+
+    <string name="security">Security</string>
+    <string name="album_security">Secure hidden albums</string>
+    <string name="album_security_desc">Use a fingerprint or password to secure hidden albums</string>
+    <string name="fingerprint_detail">If your device supports fingerprint authentication, your registered fingerprints will be used instead, and your password will be used as a backup</string>
+    <string name="password">Password</string>
+    <string name="password_desc">Choose a password</string>
+    <string name="security_toggle">Enable hidden album security</string>
+    <string name="apply">Apply</string>
+
+    <string name="hide_warn">Hiding this album will create a .nomedia file. It will cause other apps and android to ignore it as well.</string>
+    <string name="unhide_warn">Unhiding this album will delete it\'s .nomedia file. Other apps and android will begin to scan it.</string>
+
+    <string name="no_media">No media found</string>
+
+    <string name="edit">Edit</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="save">Save</string>
+    <string name="saved">Edit saved</string>
+
+    <!--DONATE RESOURCES-->
+    <string name="onetitle">Support</string>
+    <string name="onedesc">It\'s always great to know someone enjoys my work!</string>
+    <string name="oneprice">$1.00 USD</string>
+    <string name="twotitle">Soda</string>
+    <string name="twodesc">Keeps me focused while I crank out more updates!</string>
+    <string name="twoprice">$2.00 USD</string>
+    <string name="fivetitle">Coffee</string>
+    <string name="fivedesc">Coffee is my lifeblood!</string>
+    <string name="fiveprice">$5.00 USD</string>
+    <string name="tentitle">Dinner</string>
+    <string name="tendesc">Taking a break to eat is always good too!</string>
+    <string name="tenprice">$10.00 USD</string>
+    <string name="fifteentitle">Eat Out</string>
+    <string name="fifteendesc">For the most generous.</string>
+    <string name="fifteenprice">$15.00 USD</string>
+
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_flip">Flip</string>
+    <string name="crop_image_menu_flip_horizontally">Flip horizontally</string>
+    <string name="crop_image_menu_flip_vertically">Flip vertically</string>
+
+    <string name="pick_image_intent_chooser_title">Select source</string>
+</resources>

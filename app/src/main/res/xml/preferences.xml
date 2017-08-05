@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:DualNumberPicker="http://schemas.android.com/apk/res/org.polaric.cluttr"
+    xmlns:colorpicker="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.preference.PreferenceCategory android:title="@string/appearance" >
+
+        <org.polaric.colorful.ColorPickerPreference
+            android:title="@string/primary_color"
+            android:summary="@string/primary_color_desc"
+            colorpicker:primary_color="true"
+            android:key="primary"/>
+
+        <org.polaric.colorful.ColorPickerPreference
+            android:title="@string/accent_color"
+            android:summary="@string/accent_color_desc"
+            colorpicker:accent_color="true"
+            android:key="accent"/>
+
+        <android.support.v14.preference.SwitchPreference
+            android:title="@string/dark_theme"
+            android:summary="@string/dark_theme_desc"
+            android:key="dark_theme"
+            android:defaultValue="false"/>
+
+        <android.support.v14.preference.SwitchPreference
+
+            android:title="@string/staggered"
+            android:summary="@string/staggered_desc"
+            android:key="staggered"
+            android:defaultValue="false"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory android:title="@string/behavior" >
+
+        <android.support.v14.preference.SwitchPreference
+            android:title="@string/animations"
+            android:summary="@string/animations_desc"
+            android:key="animations"
+            android:defaultValue="true"/>
+
+        <org.polaric.cluttr.preference.DualNumberPickerPreference
+            android:title="@string/grid_size"
+            android:summary="@string/grid_size_desc"
+            DualNumberPicker:key_one="album_grid_portrait"
+            DualNumberPicker:key_two="album_grid_landscape"
+            DualNumberPicker:title_one="@string/portrait"
+            DualNumberPicker:title_two="@string/landscape"
+            DualNumberPicker:max_one="10"
+            DualNumberPicker:max_two="20"
+            DualNumberPicker:default_one="2"
+            DualNumberPicker:default_two="4"/>
+
+        <org.polaric.cluttr.preference.DualNumberPickerPreference
+            android:title="@string/grid_size_media"
+            android:summary="@string/grid_size_media_desc"
+            DualNumberPicker:key_one="media_grid_portrait"
+            DualNumberPicker:key_two="media_grid_landscape"
+            DualNumberPicker:title_one="@string/portrait"
+            DualNumberPicker:title_two="@string/landscape"
+            DualNumberPicker:max_one="15"
+            DualNumberPicker:max_two="30"
+            DualNumberPicker:default_one="4"
+            DualNumberPicker:default_two="8"/>
+
+        <org.polaric.cluttr.preference.ExcludeFolderPreference
+            android:key="excluded_folders_listener_key"
+            android:title="@string/exclude_folders"
+            android:summary="@string/excluded_folders_desc" />
+
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory android:title="@string/storage">
+
+        <Preference
+            android:title="@string/external_sd"
+            android:key="externalsd_placeholder"/>
+
+        <Preference
+            android:title="@string/remove_sd"
+            android:summary="@string/remove_sd_desc"
+            android:key="removesd_placeholder"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory android:title="@string/security">
+
+        <Preference
+            android:title="@string/album_security"
+            android:summary="@string/album_security_desc"
+            android:key="security_placeholder"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory android:title="@string/advanced">
+
+        <Preference
+            android:title="@string/clear_cache"
+            android:summary="@string/clear_cache_desc"
+            android:key="clear_cache_placeholder"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>

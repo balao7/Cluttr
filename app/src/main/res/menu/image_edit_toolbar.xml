@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/rotate_left"
+        android:title="@string/left"
+        android:icon="@drawable/ic_rotate_left_white_48px"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/rotate_right"
+        android:title="@string/right"
+        android:icon="@drawable/ic_rotate_right_white_48px"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/edit_save"
+        android:title="@string/save"
+        android:icon="@drawable/ic_check_white_48px"
+        app:showAsAction="always"/>
+</menu>

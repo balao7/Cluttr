@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/sort"
+        android:id="@+id/album_menu_sort"
+        android:icon="@drawable/ic_sort_white_48px"
+        app:showAsAction="always">
+        <menu>
+            <item android:title="@string/ascending"
+                android:id="@+id/album_ascending"
+                android:checkable="true"/>
+            <group android:checkableBehavior="single" >
+                <item android:title="@string/size"
+                    android:id="@+id/album_size"/>
+                <item android:title="@string/alphabetical"
+                    android:id="@+id/album_alphabetical"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/visibility"
+        android:id="@+id/album_menu_hide"
+        android:icon="@drawable/ic_visibility_off_white_48px"
+        app:showAsAction="always"/>
+
+</menu>
