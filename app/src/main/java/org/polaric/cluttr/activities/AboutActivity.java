@@ -128,7 +128,7 @@ public class AboutActivity extends ColorfulActivity implements View.OnClickListe
                         .show();
                 break;
             case R.id.gpl:
-                openInChrome("https://git.polaric.org/polaric/Cluttr");
+                openInChrome("https://github.com/garretyoder/Cluttr");
                 break;
         }
         return false;
